@@ -1,7 +1,37 @@
 img{
-    width: 30%;
+    width: 20%;
     margin: 0 auto;
+    /* border: 1px solid red; */
 }
 .col-12{
     border: 3px solid green
+}
+.marks{
+    border: 1.5px solid rosybrown;
+}
+.svc_title > p{
+    display: inline-block;
+    margin: 0  auto;
+    width: 100%;
+    text-align: center;
+
+}
+.grad{
+    width: 15%;
+}
+
+.grad:hover{
+    animation: rotate 5s infinite;  
+
+}
+@keyframes rotate {
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform:rotateY(180deg)   
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
 }
